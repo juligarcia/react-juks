@@ -1,4 +1,4 @@
-import { setLoading, clearLoading } from './utils';
+import { setLoading, clearLoading } from './redux/actions';
 import { ABORT_ERROR } from './constants';
 
 export const controlledRequest = async (abortSignal, asyncTask, failureCallback) => {
@@ -10,7 +10,7 @@ export const controlledRequest = async (abortSignal, asyncTask, failureCallback)
       });
       resolve(await asyncTask());
     });
-  return asyncTask();
+  return await asyncTask();
 };
 
 export const customCallback = (setter, progressSetter, callback, reduxConfig) => result => {

@@ -19,8 +19,7 @@ const useAsyncRequest = (asyncTask, dependencies = [], config = {}) => {
 
   useEffect(() => {
     initiateRequest(setInProgress, reduxConfig);
-    const result = controlledRequest(abortSignal, asyncTask, customFailureCallback);
-    customSuccessCallback(result);
+    controlledRequest(abortSignal, asyncTask, customFailureCallback).then(customSuccessCallback, customFailureCallback);
   }, dependencies);
 
   return { inProgress, data, error };
