@@ -5,7 +5,7 @@
   "main": "./hooks/index.js",
   "scripts": {
     "coveralls": "jest --coverage && cat ./tests/coverage/lcov.info | coveralls",
-    "test": "jest --collectCoverage=true",
+    "test": "jest",
     "test-coverage": "jest --coverage"
   },
   "repository": {
