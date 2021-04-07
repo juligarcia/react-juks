@@ -1,6 +1,6 @@
 version: 2.1
 orbs:
-  coveralls: coveralls/coveralls@1.0.6
+  codecov: codecov/codecov@1.0.2
 jobs:
   build:
     docker:
@@ -28,10 +28,5 @@ jobs:
       # run tests!
       - run: yarn test
       - run: yarn test-coverage
-            - coveralls/upload
-      - store_artifacts: # for display in Artifacts: https://circleci.com/docs/2.0/artifacts/
-          path: coverage
-          prefix: coverage
-notify:
-  webhooks:
-    - url: https://coveralls.io/webhook?repo_token=${i2YiPPHJYY5IP4230wpUz8seBPKNxsqME}
+      - codecov/upload:
+        file: coverage/*json
