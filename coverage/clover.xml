@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1617760762746" clover="3.2.0">
+  <project timestamp="1617760762746" name="All files">
+    <metrics statements="24" coveredstatements="24" conditionals="9" coveredconditionals="7" methods="8" coveredmethods="8" elements="41" coveredelements="39" complexity="0" loc="24" ncloc="24" packages="2" files="4" classes="4"/>
+    <package name="use-async-controller">
+      <metrics statements="20" coveredstatements="20" conditionals="8" coveredconditionals="6" methods="6" coveredmethods="6"/>
+      <file name="constants.js" path="/Users/macbookpro/Desktop/Proyects/react-juks/hooks/use-async-controller/constants.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+      </file>
+      <file name="use-async-controller.js" path="/Users/macbookpro/Desktop/Proyects/react-juks/hooks/use-async-controller/use-async-controller.js">
+        <metrics statements="12" coveredstatements="12" conditionals="4" coveredconditionals="4" methods="3" coveredmethods="3"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="19" type="stmt"/>
+        <line num="5" count="19" type="stmt"/>
+        <line num="7" count="19" type="stmt"/>
+        <line num="8" count="19" type="cond" truecount="2" falsecount="0"/>
+        <line num="9" count="5" type="stmt"/>
+        <line num="10" count="5" type="stmt"/>
+        <line num="14" count="19" type="stmt"/>
+        <line num="15" count="5" type="stmt"/>
+        <line num="16" count="5" type="stmt"/>
+        <line num="17" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="20" count="19" type="stmt"/>
+      </file>
+      <file name="utils.js" path="/Users/macbookpro/Desktop/Proyects/react-juks/hooks/use-async-controller/utils.js">
+        <metrics statements="7" coveredstatements="7" conditionals="4" coveredconditionals="2" methods="3" coveredmethods="3"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="5" type="stmt"/>
+        <line num="5" count="5" type="cond" truecount="1" falsecount="1"/>
+        <line num="6" count="5" type="stmt"/>
+        <line num="7" count="4" type="cond" truecount="1" falsecount="1"/>
+        <line num="8" count="4" type="stmt"/>
+        <line num="10" count="5" type="stmt"/>
+      </file>
+    </package>
+    <package name="use-toggle">
+      <metrics statements="4" coveredstatements="4" conditionals="1" coveredconditionals="1" methods="2" coveredmethods="2"/>
+      <file name="use-toggle.js" path="/Users/macbookpro/Desktop/Proyects/react-juks/hooks/use-toggle/use-toggle.js">
+        <metrics statements="4" coveredstatements="4" conditionals="1" coveredconditionals="1" methods="2" coveredmethods="2"/>
+        <line num="3" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="4" count="7" type="stmt"/>
+        <line num="6" count="7" type="stmt"/>
+        <line num="8" count="7" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>

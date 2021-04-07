@@ -14,7 +14,7 @@ const useRequestController = (failureCallback) => {
   const abort = useCallback(() => {
     controller.abort();
     setRefreshController(true);
-    failureCallback();
+    if (failureCallback) failureCallback();
   }, [failureCallback]);
 
   return [controller.signal, abort];
