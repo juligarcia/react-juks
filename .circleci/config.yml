@@ -6,6 +6,9 @@ jobs:
     docker:
       - image: node:14.8.0
 
+    environment:
+      - CODECOV_TOKEN: 73f32fb7-2511-44d5-9b14-308a9cf088e4
+
     working_directory: ~/repo
 
     steps:
