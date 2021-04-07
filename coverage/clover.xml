@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1617760762746" clover="3.2.0">
-  <project timestamp="1617760762746" name="All files">
+<coverage generated="1617761502042" clover="3.2.0">
+  <project timestamp="1617761502042" name="All files">
     <metrics statements="24" coveredstatements="24" conditionals="9" coveredconditionals="7" methods="8" coveredmethods="8" elements="41" coveredelements="39" complexity="0" loc="24" ncloc="24" packages="2" files="4" classes="4"/>
     <package name="use-async-controller">
       <metrics statements="20" coveredstatements="20" conditionals="8" coveredconditionals="6" methods="6" coveredmethods="6"/>
